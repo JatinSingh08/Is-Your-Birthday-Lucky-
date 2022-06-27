@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+:root {
+  --primary-color: #662193;
+  --secondary-color: #b360eb;
+  --off-dark: #3e3e3e;
+}
+
+body {
+  background-color: rgb(25,25,25);
+  color: white;
+  font-family: 'Montserrat', sans-serif;  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.heading {
+  background-color: var(--primary-color);
+  font: 2.2rem;
+  padding: 0.8rem;
+  margin: 0;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.dob,.lucky-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0.8rem;
+}
+
+.dob label, .lucky-number label {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.dob input, .lucky-number input {
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 0.3rem 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+#check-button {
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 0.3 1.5rem;
+  margin: 1rem;
+  box-shadow: 4px 4px var(--primary-color);
+}
+#check-button:active {
+  box-shadow: none;
+  transform: translateY(3px);
+}
+
+.divider {
+  width: 30rem;
+  padding: px;
+  background-color: var(--off-dark);
+}
+
+.gif {
+  width: 20rem;
+  border-radius: 5px;
+}
+
+#result {
+  font-size: 1.3rem;
+  background-color: var(--off-dark);
+  padding:0.1rem 1.5rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0 0.5rem 0;
+}
+
+#privacy {
+  margin-top: auto;
+  margin-bottom: 0.3rem;
+}
+
+span {
+  font-weight: 700;
+  color: var(--secondary-color);
+}
