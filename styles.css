@@ -8,7 +8,8 @@
 body {
   background-color: rgb(25,25,25);
   color: white;
-  font-family: 'Montserrat', sans-serif;  padding: 0;
+  font-family: 'Montserrat', sans-serif;  
+  padding: 0;
   margin: 0;
   text-align: center;
   display: flex;
@@ -17,9 +18,9 @@ body {
 }
 
 .heading {
-  background-color: var(--primary-color);
-  font: 2.2rem;
-  padding: 0.8rem;
+  background: linear-gradient(to right, red, blue);
+  font-size: 2.2rem;
+  padding: 0.58rem;
   margin: 0;
 }
 main {
@@ -45,21 +46,20 @@ main {
 }
 
 .dob input, .lucky-number input {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   text-align: center;
-  padding: 0.3rem 0.5rem;
+  padding: 0.2rem 0.5rem;
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
 }
 
 #check-button {
   border: none;
-  border-radius: 0.5rem;
-  font-size: 1.3rem;
-  font-weight: 500;
-  padding: 0.3 1.5rem;
+  border-radius: 0.2rem;
+  font-size: 1.5rem;
+  font-weight: 550;
+  padding: 0.8 1.5rem;
   margin: 1rem;
-  box-shadow: 4px 4px var(--primary-color);
 }
 #check-button:active {
   box-shadow: none;
@@ -67,25 +67,40 @@ main {
 }
 
 .divider {
-  width: 30rem;
-  padding: px;
+  width: 23rem;
+  padding: 1px;
   background-color: var(--off-dark);
 }
 
 .gif {
   width: 20rem;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 #result {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   background-color: var(--off-dark);
-  padding:0.1rem 1.5rem;
-  border-radius: 0.5rem;
-  margin: 1rem 0 0.5rem 0;
+  padding:0.2rem 1.8rem;
+  border-radius: 0.2rem;
+  margin: 1rem 0 1rem 0;
 }
 
-#privacy {
+footer {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, red, blue);
+  padding: 0.5rem;
+  gap: 1.5rem;
+  margin-top: auto;
+}
+
+.social-icons {
+  width: 2.5rem;
+  margin-top: 0.3rem;
+}
+ 
+.privacy {
   margin-top: auto;
   margin-bottom: 0.3rem;
 }
